@@ -1,6 +1,6 @@
 function fetchBooks() {
   //write fetch request to the Game of Thrones API
-  fetch("")
+  fetch("http://www.omdbapi.com/?apikey=c87ebb66&t=game+of+thrones")
 }
 
 function renderBooks(json) {
